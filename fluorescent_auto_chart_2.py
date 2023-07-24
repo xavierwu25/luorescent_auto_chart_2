@@ -119,11 +119,11 @@ def get_cell_value(excel_file, cell):
     return ws[cell].value
 
 root = Tk()
-root.title("螢光物質與安鵬產品評估")
+root.title("螢光物質與產品評估")
 
 button1 = Button(root, text="選取螢光物質", command=open_excel_file_1)
 button1.pack(pady=20)
-button2 = Button(root, text="選取安鵬產品", command=open_excel_file_2)
+button2 = Button(root, text="選取產品", command=open_excel_file_2)
 button2.pack(pady=10)
 
 window_width = 500
